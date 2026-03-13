@@ -1,0 +1,8 @@
+name = "aurora-control-workers"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+# Webhook endpoint will be at /webhooks/github (Phase 1)
+# [queues.producers]
+# binding = "GITHUB_EVENTS"
+# queue = "github-events"

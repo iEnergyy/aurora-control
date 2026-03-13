@@ -11,12 +11,12 @@ Goal: establish repository structure and development environment.
 ## 0.1 Monorepo Setup
 
 - [x] Initialize Turbo monorepo.
-- [ ] Create directories:
-  - [ ] apps/dashboard
-  - [ ] apps/workers
-  - [ ] packages/core
-  - [ ] packages/database
-  - [ ] packages/github-client
+- [x] Create directories:
+  - [x] apps/web
+  - [x] apps/workers
+  - [x] packages/core
+  - [x] packages/database
+  - [x] packages/github-client
 
 ---
 
@@ -39,15 +39,15 @@ Goal: establish repository structure and development environment.
 
 ## 0.4 shadcn UI Setup
 
-- [x] Initialize shadcn in dashboard.
+- [x] Initialize shadcn in web app.
 - [x] Configure Tailwind.
 
 ---
 
 ## 0.5 Environment Management
 
-- [ ] Create `.env.example`.
-- [ ] Define required variables.
+- [x] Create `.env.example`.
+- [x] Define required variables.
 
 ---
 
@@ -135,7 +135,7 @@ Goal: persist repository state.
 
 ## 2.5 Database Package
 
-- [ ] Expose database client for workers and dashboard.
+- [ ] Expose database client for workers and web app.
 
 ---
 
@@ -178,7 +178,7 @@ Goal: enforce merge freezes.
 
 ---
 
-# Phase 4 — Dashboard
+# Phase 4 — Web App
 
 Goal: provide user interface.
 
@@ -186,7 +186,7 @@ Goal: provide user interface.
 
 ## 4.1 Next.js App
 
-- [ ] Initialize dashboard app.
+- [ ] Initialize web app (apps/web).
 
 ---
 
@@ -204,7 +204,7 @@ Goal: provide user interface.
 
 ---
 
-## 4.4 Dashboard UI
+## 4.4 Web App UI
 
 - [ ] Create pages:
   - [ ] /dashboard
@@ -245,7 +245,7 @@ Goal: allow selective merges during freeze.
 
 ---
 
-## 5.3 Dashboard UI
+## 5.3 Web App UI
 
 - [ ] Add override controls.
 
@@ -314,7 +314,7 @@ Goal: reduce CI cost for merge queues.
 
 ## 7.6 CI Analytics
 
-- [ ] Display metrics in dashboard.
+- [ ] Display metrics in web app.
 
 ---
 

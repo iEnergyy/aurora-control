@@ -148,9 +148,9 @@ GitHub Webhooks
 → Cloudflare Queue
 → Worker Consumer (event processing)
 → PostgreSQL database
-→ Next.js dashboard (Vercel)
+→ Next.js web app (Vercel)
 
-The dashboard acts as the **control plane**, while Workers act as the **event processing layer**.
+The web app (apps/web) acts as the **control plane**, while Workers act as the **event processing layer**.
 
 ---
 
@@ -163,7 +163,7 @@ The dashboard acts as the **control plane**, while Workers act as the **event pr
 
 ---
 
-## Dashboard
+## Web App (apps/web)
 
 * Next.js
 * React
@@ -231,7 +231,7 @@ This project uses a **Turbo monorepo**.
 aurora-control
 │
 ├── apps
-│   ├── dashboard        # Next.js dashboard
+│   ├── web              # Next.js web app (control plane)
 │   └── workers          # Cloudflare Workers
 │
 ├── packages
@@ -265,7 +265,7 @@ PostgreSQL database
 Optional but recommended:
 
 * Neon or Supabase for serverless Postgres
-* Vercel for dashboard deployment
+* Vercel for web app deployment
 
 ---
 
@@ -277,7 +277,7 @@ Install dependencies:
 pnpm install
 ```
 
-Run dashboard (Next.js app):
+Run web app (Next.js):
 
 ```bash
 pnpm --filter web dev
