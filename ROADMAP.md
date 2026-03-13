@@ -10,7 +10,7 @@ Goal: establish repository structure and development environment.
 
 ## 0.1 Monorepo Setup
 
-- [ ] Initialize Turbo monorepo.
+- [x] Initialize Turbo monorepo.
 - [ ] Create directories:
   - [ ] apps/dashboard
   - [ ] apps/workers
@@ -22,25 +22,25 @@ Goal: establish repository structure and development environment.
 
 ## 0.2 Package Manager
 
-- [ ] Configure pnpm workspace.
-- [ ] Add pnpm-workspace.yaml.
+- [x] Configure pnpm workspace.
+- [x] Add pnpm-workspace.yaml.
 
 ---
 
 ## 0.3 Tooling
 
-- [ ] Configure:
-  - [ ] TypeScript
-  - [ ] ESLint
-  - [ ] Prettier
-- [ ] Create shared tsconfig.
+- [x] Configure:
+  - [x] TypeScript
+  - [x] ESLint
+  - [x] Prettier
+- [x] Create shared tsconfig.
 
 ---
 
 ## 0.4 shadcn UI Setup
 
-- [ ] Initialize shadcn in dashboard.
-- [ ] Configure Tailwind.
+- [x] Initialize shadcn in dashboard.
+- [x] Configure Tailwind.
 
 ---
 
